@@ -1,0 +1,12 @@
+go 1.21.5
+
+use (
+	./array
+	./first
+	./hello
+	./if_conditional
+	./kedua
+	./loop_for
+	./pertama
+	./switch_case
+)
