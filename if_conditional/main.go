@@ -11,20 +11,44 @@ func main() {
 	// 	fmt.Println("Umur", age, "belum boleh mengambil Tugas Akhir")
 	// }
 
-	score := 25
+	// score := 25
+	// var grade string
+
+	// if score <= 50 {
+	// 	grade = "E"
+	// } else if score <= 60 {
+	// 	grade = "D"
+	// } else if score <= 70 {
+	// 	grade = "C"
+	// } else {
+	// 	grade = "NULL"
+	// }
+
+	// fmt.Println(grade)
+
+	nilai := 78
 	var grade string
 
-	if score <= 50 {
-		grade = "E"
-	} else if score <= 60 {
-		grade = "D"
-	} else if score <= 70 {
-		grade = "C"
+	if nilai <= 50 {
+		fmt.Println("Nilai ", nilai, " tidak mencapai KKM")
 	} else {
-		grade = "NULL"
+		fmt.Println("Nilai ", nilai, " mencapai KKM")
 	}
 
-	fmt.Println(grade)
+	fmt.Println("===========")
+
+	if nilai == 100 {
+		grade = "A"
+	} else if nilai > 80 {
+		grade = "B"
+	} else if nilai > 70 {
+		grade = "C"
+	} else {
+		grade = "D"
+	}
+
+	fmt.Println("Nilai Tono ", nilai, "maka grade Tono adalah", grade)
+
 }
 
 // if
