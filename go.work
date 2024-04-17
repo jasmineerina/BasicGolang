@@ -9,4 +9,6 @@ use (
 	./loop_for
 	./pertama
 	./switch_case
+	./map
+	./slice_map
 )
